@@ -26,32 +26,6 @@
   padding: 100px 90px;
 }
 
-/*button setting*/
-
-.theme-button {
-  position: relative;
-  padding-bottom: 4px;
-  font-size: 16px;
-  border-radius: 2px;
-  background-color: transparent;
-  cursor: pointer;
-  color: #1e2939;
-  border: 0;
-}
-
-.theme-button:active {
-  opacity: 0.8;
-}
-
-.theme-button:focus,
-.theme-button:hover {
-  color: #ffffff;
-  background-color: #1e2939;
-}
-.theme-button:focus {
-  outline-color: #1e2939;
-}
-
 /* about me section */
 
 .about-me-section {
@@ -60,7 +34,7 @@
 .about-me-profession {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 17px;
   color: #000;
   margin-bottom: 20px;
@@ -79,52 +53,6 @@
   font-size: 14px;
   line-height: 24px;
   color: #595959;
-}
-
-/* my project sections */
-
-.my-projects-section {
-  margin-bottom: 50px;
-}
-
-.main-content-title {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 22px;
-  line-height: 27px;
-  color: #000;
-  margin-bottom: 10px;
-}
-.my-projects-list {
-  padding: 0 0 0 18px;
-}
-
-.my-projects-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-}
-
-.my-projects-text {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  color: #595959;
-  margin-left: 5px;
-}
-.my-projects-item {
-  color: #000;
-  font-weight: bold;
-}
-.my-projects-bracket {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 24px;
-  color: black;
 }
 
 /* my work expirience */
@@ -210,7 +138,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #565e6a;
+  color: #bbbec2;
 }
 
 /* skill section */
@@ -225,46 +153,5 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #fff;
-}
-
-/* dark theme */
-
-.dark-theme {
-  color: #f2f2f2;
-  background-color: #17161a;
-}
-
-.dark-theme .theme-button {
-  color: #fff;
-}
-
-.dark-theme .theme-button:focus,
-.dark-theme .theme-button:hover {
-  color: #17161a;
-  background-color: #333333;
-}
-
-.dark-theme .main-container {
-  background-color: black;
-}
-
-.dark-theme .about-me-profession {
-  color: #ffffff;
-}
-
-.dark-theme .main-content-title {
-  color: #ffffff;
-}
-
-.dark-theme .my-projects-item {
-  color: #fff;
-}
-
-.dark-theme .my-projects-bracket {
-  color: #fff;
-}
-
-.dark-theme .sidebar-section {
-  background-color: rgb(32, 32, 32);
+  color: #bbbec2;
 }
